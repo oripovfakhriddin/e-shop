@@ -60,4 +60,32 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.products {
+  border: 2px solid red;
+  height: 80vh;
+}
+
+.container-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.item1 {
+  border: 2px solid green;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item1-img {
+  width: 150px;
+  height: 150px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+.products {
+    border: 2px solid red;
+    height: 80vh;
+
+}
+
+.container-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.item1 {
+    border: 2px solid green;
+    padding: 20px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.item1-img {
+    width: 150px;
+    height: 150px;
+}
