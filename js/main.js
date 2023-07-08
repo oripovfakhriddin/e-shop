@@ -1,8 +1,7 @@
 import { data } from "./data.js";
 const productsBlock = document.querySelector(".products__block");
 const productsCart = document.querySelector(".cart__block");
-const totalPrice = document.querySelector(".total-price")
-
+const totalPrice = document.querySelector(".total-price");
 let cart = [];
 const sum = () => {
     totalPrice.textContent = cart.reduce((a, b) => { return a + b.userPrice; }, 0)+"$"
@@ -23,7 +22,6 @@ const renderShop = () => {
                         </div>
                     </div> `
         }
-
     })
 }
 
